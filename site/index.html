@@ -5,11 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja aplikacja</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background:linear-gradient(90deg,rgb(162, 0, 255)0%,rgb(3, 243, 231)100%)
+        }
+        button {
+            border-width: 1px;
+            border-color: black;
+        }
+        button:hover {
+            opacity: 80%;
+            font-size: 35px;
+        }
+        section > div {
+            text-align: center;
+            
+        }
+        section  button {
+            text-align: center;
+            font-size: 30px;
+            background-color: orange;
+            opacity: 100%;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>  Hello world!  </h1>
-    <h1> Pozdro z fartem </h1>
-    <button onclick="alert('jajco')"> kliknij mnie </button>
-    
+<section>
+    <div id="row1">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+    </div>
+    <div id="row2">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+    </div>
+    <div id="row3">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+    </div>
+</section>
 </body>
 </html>
